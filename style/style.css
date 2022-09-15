@@ -1,0 +1,55 @@
+body {
+    background-color: #011627;
+    color: white;
+}
+.content-menu{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+
+}
+
+.content-menu li {
+    display: inline;
+}
+
+.content-menu li a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 4px;
+    color: white;
+    background-color: #222A68;
+    width: 100px;
+    margin: 4px;
+    border-radius: 8px;
+}
+
+.content-photo {
+    display: inline-block;
+    vertical-align: top;
+    padding: 50px 45px;
+}
+
+.photo {
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    max-height: 550px;
+    margin: auto;
+
+}
+
+.content {
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content h1 {
+    height: 50px;
+    text-align: justify;
+}
+
+
