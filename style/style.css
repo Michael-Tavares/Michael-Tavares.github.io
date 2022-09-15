@@ -22,13 +22,15 @@ body {
     background-color: #222A68;
     width: 100px;
     margin: 4px;
+    margin-top: 20px;
     border-radius: 8px;
 }
 
 .content-photo {
     display: inline-block;
     vertical-align: top;
-    padding: 50px 45px;
+    padding: 50px 45px 10px 45px;
+    position: relative;
 }
 
 .photo {
@@ -44,12 +46,55 @@ body {
 .content {
     display: inline-block;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .content h1 {
-    height: 50px;
+    height: 30px;
     text-align: justify;
+    margin-top: 20px;
+    font-size: 33px;
 }
 
+.content h2 {
+    padding:26px;
+    margin-top: 15px;
+    font-size: 25px;
+}
 
+.content h4 {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.content p {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.content-ul {
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+}
+
+.content-ul li {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.content-recommend {
+    background-color: rgba(0, 0, 0, 0.11);
+}
+
+.content-recommend h2 {
+    text-align: justify;
+    font-size: 20px;  
+}
+
+.content-recommend li {
+    display: inline;
+    
+}
