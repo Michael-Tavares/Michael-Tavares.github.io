@@ -87,14 +87,48 @@ body {
 
 .content-recommend {
     background-color: rgba(0, 0, 0, 0.11);
+    height: 150px;
 }
 
 .content-recommend h2 {
     text-align: justify;
-    font-size: 20px;  
+    font-size: 20px; 
 }
 
 .content-recommend li {
     display: inline;
-    
+}
+
+.content-recommend a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+    margin-top: 20px;
+    background-color: #222a686e;
+    border-radius: 8px;
+}
+
+.content-kim {
+    padding: 60px;
+    text-align: center;
+}
+
+.photo-kim {
+    padding: 20px;
+    border-radius: 40%;
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    margin: auto;
+}
+
+
+.content-footer {
+    padding: 40px;
+    text-align: center;
+    background-color: #222a681a;
+}
+.content-footer a{
+    padding: 10px 10px;
 }
