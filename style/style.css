@@ -1,93 +1,109 @@
+:root {
+    --bg-color: rgb(1, 22, 40);
+    --font-color: rgb(255, 255, 255);
+    --second-color: rgb(34, 42, 104);
+}
+
 body {
-    background-color: #011627;
-    color: white;
+    background-color: var(--bg-color);
+    color: var(--font-color);
 }
-.content-menu{
-    text-align: center;
-    list-style: none;
-    padding: 0;
-
-}
-
-.content-menu li {
-    display: inline;
+.container-header{
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+    justify-content: center;
+    align-items: center;
 }
 
-.content-menu li a {
-    position: relative;
-    display: inline-block;
+.container-header nav {
+    display: flex;
+    width: 80%;
+    height: 90px;
+}
+
+.container-header nav a {
+    display: flex;
     text-decoration: none;
-    padding: 10px 4px;
-    color: white;
-    background-color: #222A68;
-    width: 100px;
-    margin: 4px;
+    color: var(--font-color);
+    background-color: var(--second-color);
+    width: 100%;
+    margin: 8px;
     margin-top: 20px;
     border-radius: 8px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
 }
 
-.content-photo {
-    display: inline-block;
-    vertical-align: top;
-    padding: 50px 45px 10px 45px;
-    position: relative;
-}
-
-.photo {
-    border-radius: 20px;
-    height: auto;
-    width: auto;
-    max-width: 400px;
-    max-height: 550px;
-    margin: auto;
-
+.container-menu {
+    display: flex;
+    margin: 20px auto;
+    flex-flow: row wrap;
+    width: 65%
 }
 
 .content {
-    display: inline-block;
-    text-align: center;
-    margin-top: 20px;
+    width: 80%;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
 }
 
 .content h1 {
-    height: 30px;
-    text-align: justify;
-    margin-top: 20px;
-    font-size: 33px;
+    font-size: 50px;
+    margin: 10px;
 }
 
 .content h2 {
-    padding:26px;
-    margin-top: 15px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
-.content h4 {
-    font-size: 16px;
-    padding: 10px;
+.content h3 {
+    margin: 15px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .content p {
-    font-size: 20px;
-    text-align: center;
-    padding: 20px;
+    margin: 15px;
+    font-size: 23px;
+    text-align: justify;
 }
-
 .content-ul {
-    text-align: center;
-    display: inline-block;
-    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    list-style: none;
 }
 
 .content-ul li {
-    display: inline-block;
-    padding: 0 10px;
-    font-size: 16px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.container-photo {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    flex-flow: row wrap;
+}
+
+.photo {
+    border-radius: 30px;
+    max-width: 100%;
 }
 
 .content-recommend {
-    background-color: rgba(0, 0, 0, 0.11);
-    height: 150px;
+    padding-top: 20px;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-recommend h2 {
@@ -96,7 +112,7 @@ body {
 }
 
 .content-recommend li {
-    display: inline;
+    display: flex;
 }
 
 .content-recommend a {
@@ -104,30 +120,39 @@ body {
     text-decoration: none;
     padding: 20px 30px;
     margin-top: 20px;
-    background-color: #222a686e;
-    border-radius: 8px;
+    background-color: var(--second-color);
+    border-radius: 30px;
 }
 
-.content-kim {
-    padding: 60px;
-    text-align: center;
+.container-kim {
+    width: 65%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-kim div {
+    margin: 30px;
 }
 
 .photo-kim {
     padding: 20px;
     border-radius: 40%;
-    height: auto;
-    width: auto;
     max-width: 300px;
     max-height: 300px;
     margin: auto;
 }
 
-
 .content-footer {
+    display: flex;
+    width: 65%;
+    margin: auto;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
     padding: 40px;
-    text-align: center;
-    background-color: #222a681a;
+    background-color: var(--second-color);
 }
 .content-footer a{
     padding: 10px 10px;

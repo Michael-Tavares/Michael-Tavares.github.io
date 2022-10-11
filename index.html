@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,79 +13,64 @@
 
     <title>Meu Portfólio</title>
 </head>
+
 <body>
-    <div class="content-menu">
+    <header class="container-header">
         <nav>
-            <ul>
-            <li>
-                <a href="#sobre">Sobre</a>
-            </li>
-            <li>
-                <a href="#foto">Fotos</a>
-            </li>
-            <li>
-                <a href="#conteudo">Conteúdo</a>
-            </li>
-            <li>
-                <a href="#contato">Contato</a>
-            </li>
-            </ul>
+            <a href="#sobre">Sobre</a>
+            <a href="#foto">Fotos</a>
+            <a href="#conteudo">Conteúdo</a>
+            <a href="#contato">Contato</a>
         </nav>
-    </div>
-    
-    <div class="content-photo">
+    </header>
+    <menu class="container-menu">
+        <section class="content">
+            <h1>Olá, meu nome é Michael Douglas,</h1>
+            <h2 id="sobre">Nasci em Brasília, atualmente 22 anos e moro em Cascavel no Paraná!</h2>
+            <h3><s>Este site está em construção, pretendo atualizá-lo periodicamento para demonstrar minhas competências na programação Web</s></h3>
+            <p>Para isso vou descrever algumas habilidades pessoais e profissionais que tenho:</p>
+            <ul class="content-ul">
+                <li>Resiliência</li>
+                <li>Comunicação assertiva</li>
+                <li>Pontualidade</li>
+                <li>Empatia</li>
+                <li>Soft Skilss</li>
+                <li>Typescript</li>
+                <li>React</li>
+                <li>Scrum</li>
+                <li>Python</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+    </menu>
+    <section class="container-photo">
         <img id="foto" class="photo" src="./images/michael.jpg" alt="uma foto minha sorrindo" width="400px">
-    </div>
-    
-    <div class="content">
-        <h1>Olá, meu nome é Michael Douglas,</h1>
-    
-        <h2 id="sobre">
-            Nasci em Brasília, atualmente 22 anos e moro em Cascavel no Paraná!
-        </h2>
-    
-        <h4><s>Este site está em construção, pretendo atualizá-lo periodicamento para demonstrar minhas competências na programação Web</s></h4>
-        <p>Para isso vou descrever algumas habilidades pessoais e profissionais que tenho:</p>
-        <ul class="content-ul">
-            <li>Resiliência</li>
-            <li>Comunicação assertiva</li>
-            <li>Pontualidade</li>
-            <li>Empatia</li>
-            <li>Soft Skilss</li>
-            <li>Typescript</li>
-            <li>React</li>
-            <li>Scrum</li>
-            <li>Python</li>
-            <li>Node.js</li>
-        </ul>
-        <div class="content-recommend">
-            <h2 id="conteudo">Recomendação de conteúdos:</h2>
+    <aside class="content-recommend">
+        <h2 id="conteudo">Recomendação de conteúdos:</h2>
             <ul>
-                <li>
-                    <a href="https://www.youtube.com/user/xadrezverbal" target="_blank">Xadrez Verbal</a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/c/LucasMontano" target="_blank">Lucas Montano</a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/c/lucasishii" target="_blank">Lucas Ishii</a>
-                </li>
-             </ul> 
-            <div class="content-kim">
-                <h3>E este é o Kim,</h3>
-                <img src="./images/kimbebe.jpg" alt="foto do meu cachorro bebe" class="photo-kim">
-                <img src="./images/kim.jpg" alt="foto do meu cachorro fazendo pose" class="photo-kim">
-                <img src="./images/kimpasseio.jpg" alt="foto do meu cachorro passeando" class="photo-kim">
-            </div>
+                <li><a href="https://www.youtube.com/user/xadrezverbal" target="_blank">Xadrez Verbal</a></li>
+                <li><a href="https://www.youtube.com/c/LucasMontano" target="_blank">Lucas Montano</a></li>
+                <li><a href="https://www.youtube.com/c/lucasishii" target="_blank">Lucas Ishii</a></li>
+            </ul>
+    </aside> 
+    </section>
+    <section class="container-kim">
+        <div>
+            <h3>E este é o Kim,</h3>
+            <img src="./images/kimbebe.jpg" alt="foto do meu cachorro bebe" class="photo-kim">
+            <img src="./images/kim.jpg" alt="foto do meu cachorro fazendo pose" class="photo-kim">
+            <img src="./images/kimpasseio.jpg" alt="foto do meu cachorro passeando" class="photo-kim">
         </div>
-    </div>
-   
-    
-    
+    </section>  
     <footer class="content-footer" id="contato">
-        <a href="https://www.linkedin.com/in/pqmaic/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin logo" width="40px"></a>
-        <a href="https://www.instagram.com/pqmaic/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="instagram logo" width="40px"></a>
-        <a href="https://github.com/Michael-Tavares"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github logo" width="40px"></a>
+        <a href="https://www.linkedin.com/in/pqmaic/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                alt="linkedin logo" width="40px"></a>
+        <a href="https://www.instagram.com/pqmaic/"><img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+                alt="instagram logo" width="40px"></a>
+        <a href="https://github.com/Michael-Tavares"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                alt="github logo" width="40px"></a>
     </footer>
 </body>
+
 </html>
