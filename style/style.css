@@ -41,27 +41,23 @@ body {
     justify-content: center;
 }
 
-.content-photo {
-    display: inline-block;
-    vertical-align: top;
-    padding: 50px 45px 10px 45px;
-    position: relative;
+.container-menu {
+    display: flex;
+    width: 80%;
+    margin: auto;
 }
 
 .photo {
-    border-radius: 20px;
-    height: auto;
-    width: auto;
-    max-width: 400px;
-    max-height: 550px;
-    margin: auto;
-
+    max-width: 100%;
+    display: flex;
+    border-radius: 30px;
 }
 
 .content {
     display: inline-block;
     text-align: center;
     margin-top: 20px;
+    
 }
 
 .content h1 {
